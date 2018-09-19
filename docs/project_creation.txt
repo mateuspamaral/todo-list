@@ -1,0 +1,14 @@
+##project creation
+
+rails new \
+  --webpack \
+  --database postgresql \
+  -m https://raw.githubusercontent.com/lewagon/rails-templates/master/minimal.rb \
+  todo-list-cn
+
+-------
+
+##creating models
+
+rails g model groups name:text
+rails g model tasks description:text completed:boolean groups:references

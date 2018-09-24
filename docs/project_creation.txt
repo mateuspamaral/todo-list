@@ -12,3 +12,12 @@ rails new \
 
 rails g model groups name:text
 rails g model tasks description:text completed:boolean groups:references
+
+-------
+
+##Creating controllers
+
+rails generate controller tasks
+rails generate controller groups
+
+-------

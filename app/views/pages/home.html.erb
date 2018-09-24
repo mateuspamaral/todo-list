@@ -11,8 +11,32 @@
         <h1>To-do Lists</h1>
       </div>
 
+<!-- -->
 
-      <!-- div responsável para posicionar todos os grupos e tarefas -->
+<div id="accordion">
+  <ul class="panels">
+    <li data-panel-id="panel1">Header 1</li>
+    <div class="panel panel1"> <a href="#">Panel 1</a>
+      <p>This is the content for panel 1</p>
+    </div>
+    <li data-panel-id="panel2">Header 2</li>
+    <div class="panel panel2"> <a href="#">Panel 2</a>
+      <p>This is the content for panel 2</p>
+    </div>
+    <li data-panel-id="panel3">Header 3</li>
+    <div class="panel panel3"> <a href="#">Panel 3</a>
+      <p>This is the content for panel 3</p>
+    </div>
+    <li data-panel-id="panel4">Header 4</li>
+    <div class="panel panel4"> <a href="#">Panel 4</a>
+      <p>This is the content for panel 4</p>
+    </div>
+  </ul>
+</div>
+
+<!-- -->
+
+      <!-- div responsável para posicionar todos os grupos de tarefas -->
       <div class="row tasks-group">
 
         <!-- div responsável pela divisão do título do grupo e contagem de taréfas-->
@@ -122,6 +146,86 @@
               <div class="input-group-btn">
                 <a href="#" class="btn btn-primary btn-margin">
                   <i class="fas fa-check"></i>
+                </a>
+              </div>
+              <div class="input-group-btn">
+                <a href="#" class="btn btn-danger btn-margin">
+                  <i class="fas fa-times"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- -->
+
+
+      <!-- div responsável para posicionar todos os grupos e tarefas -->
+      <div class="row tasks-group">
+
+        <!-- div responsável pela divisão do título do grupo e contagem de taréfas-->
+        <div class="row group-title">
+          <div class="input-group control-group after-add-more">
+            <h2>Filmes/Séries</h2>
+            <div class="input-group-btn">
+                <h3>1/6</h3>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- div reponsável para posicionar a bara de adição de tarefas  -->
+        <div class="row add-task">
+          <div class="input-group control-group after-add-more">
+            <input type="text" class="form-control" placeholder="Your Task">
+            <div class="input-group-btn">
+              <button class="btn " type="button">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- div para posicionar as tarefas e início da listagem de tarefas -->
+        <div class="row group-tasks">
+          <div class="task gray-task">
+            <div class="input-group control-group after-add-more">
+            <p>Hereditário</p>
+              <div class="input-group-btn">
+                <a href="#" class="btn btn-success btn-margin">
+                  <i class="fas fa-redo-alt"></i>
+                </a>
+              </div>
+              <div class="input-group-btn">
+                <a href="#" class="btn btn-danger btn-margin">
+                  <i class="fas fa-times"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="task">
+            <div class="input-group control-group after-add-more">
+            <p>Missão Impossível</p>
+              <div class="input-group-btn">
+                <a href="#" class="btn btn-primary btn-margin">
+                  <i class="fas fa-redo-alt"></i>
+                </a>
+              </div>
+              <div class="input-group-btn">
+                <a href="#" class="btn btn-danger btn-margin">
+                  <i class="fas fa-times"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="task gray-task">
+            <div class="input-group control-group after-add-more">
+            <p>GoT</p>
+              <div class="input-group-btn">
+                <a href="#" class="btn btn-primary btn-margin">
+                  <i class="fas fa-redo-alt"></i>
                 </a>
               </div>
               <div class="input-group-btn">

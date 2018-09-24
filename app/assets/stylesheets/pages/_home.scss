@@ -1,1 +1,27 @@
 // Specific CSS for your home-page
+
+.task {
+  border-bottom: 1px solid rgba(213,213,213,0.9);
+}
+
+.gray-task {
+  background-color: rgba(213,213,213,0.2);
+}
+
+.add-task{
+  margin-bottom: 10px;
+}
+
+.btn-margin {
+  margin: 5px;
+}
+
+.group-title{
+  border-bottom: 1px solid rgba(213,213,213,0.9);
+  margin-bottom: 15px;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}

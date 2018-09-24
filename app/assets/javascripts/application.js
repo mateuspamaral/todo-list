@@ -1,6 +1,9 @@
 //= require rails-ujs
-//= require_tree .
+//= require_tree
+//= require jquery
 
+
+// Função para expandir/encolher os grupos de atividades
 $(function() {
 
   var $navLink = $('#accordion').find('li');
